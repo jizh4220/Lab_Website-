@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="../resources/css/signin.css" rel="stylesheet">
+	<link href="../resources/css/my_style.css" rel="stylesheet">
+  </head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" href="home.html">
+		<img class="rounded-circle" src="../resources/img/cu_boulder_logo.jpg" alt="" width="30" height="30">
+	  </a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarText">
+		<ul class="navbar-nav mr-auto">
+		 <li class="nav-item">
+			<a class="nav-link" href="home.html">Home</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="team_stats.html">Season Stats <span class="sr-only">(current)</span></a>
+		  </li>
+		  <li class="nav-item active">
+			<a class="nav-link" href="player_info.html">Player Information</a>
+		  </li>
+		</ul>
+		<div class="form-inline my-2 my-lg-0">
+			<button class="btn btn-outline-light my-2 my-sm-0" type="submit">Logout</button>
+		</div>
+	  </div>
+	</nav>
+<form>
+	<div class="form-group row">
+    	<label for="inputEmail3" class="col-sm-2 col-form-FULLNAME">Full Name</label>
+      	<div class="col-sm-10">
+      		<input type="text" class="form-control" id="inputFullName" placeholder="Full Name">
+      	</div>
+    </div>
+ 	<div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+        </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword1" class="col-sm-2 col-form-label">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3" 		placeholder="Password">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword2" class="col-sm-2 col-form-label">Confirm Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Confirm Password">
+      </div>
+  	</div>
+    <label> CU Boulder Alumni </label>
+	<div class="form-check">
+      <input class="form-check-input" type="radio" name="CUBAlumni" id="CUBAlumni" value="option1" checked>
+      <label class="form-check-label" for="CUBAlumni">
+        Yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="CUBAlumni2" id="CUBAlumni2" value="option2">
+      <label class="form-check-label" for="CUBAlumni2">
+        No
+    </label>
+    </div>
+    <label> CU Boulder Student </label>
+	<div class="form-check">
+      <input class="form-check-input" type="radio" name="Student" id="Student1" value="option1" checked>
+      <label class="form-check-label" for="Student1">
+        Yes
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="Student" id="Student2" value="option2">
+      <label class="form-check-label" for="Student2">
+        No
+    </label>
+    </div>
+    <label> Student Status </label>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="Status" id="Status1" value="option1" checked>
+      <label class="form-check-label" for="Status1">
+        Undergrad
+      </label>
+      <select class="form-control" id="exampleFormControlSelect1">
+      <option selected>Select Student Status</option>
+      <option>Freshman</option>
+      <option>Sophomore</option>
+      <option>Junior</option>
+      <option>Senior</option>
+    </select>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="Status" id="Status2" value="option2">
+      <label class="form-check-label" for="Status2">
+        Grad
+    </label>
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option selected>Select Student Status</option>
+      <option>MA</option>
+      <option>MBA</option>
+      <option>PHD</option>
+    </select>
+</form>
+<form action="home.html">
+<input type="submit" value="submit" class="btn btn-primary btn-block">
+</form> 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+</html>
+
